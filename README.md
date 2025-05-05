@@ -1,4 +1,4 @@
-<h1 align="left">Hey there! 👋 I'm a Computer Science student exploring AI, with a focus on Generative AI and real-world ML systems (MLOps).</h1>
+<h1 align="left">Hey there! 👋 I'm Karan Singh, a Computer Science student exploring AI, with a focus on Generative AI and real-world ML systems (MLOps).</h1>
 
 ###
 
