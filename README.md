@@ -52,7 +52,7 @@
 <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/snake.svg" alt="Snake animation" />
 
 ###
-
+<!--
 <div align="center">
   <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4" alt="Layout with last medium posts"  />
 </div>
@@ -63,3 +63,5 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
 </picture>
+ This line is commented out and will not be rendered asfa
+-->
