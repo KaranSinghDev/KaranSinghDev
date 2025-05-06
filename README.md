@@ -1,4 +1,4 @@
-<h1 align="left">Hey there!👋, I'm Karan Singh, a Computer Science student engaged in AI, particularly in the areas of Generative AI and real-world machine learning operation (MLOps).</h1>
+<h1 align="left">Hey there!👋, I'm Karan Singh, a Computer Science student engaged in AI, particularly in the areas of Generative AI and real-world machine learning systems (MLOps).</h1>
 
 ###
 
