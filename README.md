@@ -1,4 +1,4 @@
-<h1 align="left">Hey there! 👋 I'm a Computer Science student exploring AI, with a focus on Generative AI and real-world ML systems (MLOps).</h1>
+<h1 align="left">Hey there!👋, I'm Karan Singh, a Computer Science student engaged in AI, particularly in the areas of Generative AI and real-world machine learning systems (MLOps).</h1>
 
 ###
 
@@ -9,8 +9,6 @@
 <p align="left">🤖 AI/ML Playground: Built models for NLP (e.g., news summarization with Hugging Face Transformers) and fraud detection using anomaly detection tools like PyOD.<br>🧠 LLM Adventures: Fine-tuned models like GPT-4o & LLaMA using LoRA and DeepSpeed; built RAG pipelines with LangChain + FAISS, integrating with SQL/NoSQL databases.<br>📊 Data Detective: Wrangling, analyzing, and visualizing data with Pandas, Scikit-learn, and Seaborn — always hunting patterns.<br>💻 Tech Toolkit: Python, PyTorch, TensorFlow, SQL, Git, Docker, FastAPI, Streamlit — end-to-end ML-ready.<br>🚀 Performance & MLOps: Used MLflow for tracking, ONNX for model optimization, and CUDA/cuDF for GPU-accelerated workloads.<br>🏆 Projects & Highlights: Built a few end-to-end AI tools, tackled some real-world challenges, and even landed podium finish hackathons<br><br>📊 Find me on Kaggle: kaggle.com/hyter7</p>
 
 ###
-
-<br clear="both">
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=KaranSinghDev&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -36,15 +34,34 @@
 ###
 
 <div align="center">
-  <a href="www.linkedin.com/in/karansinghdev" target="_blank">
+  <a href="https://www.linkedin.com/in/karansinghdev" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
-  <a href="http://discord.com/users/733361448746614907" target="_blank">
+  <a href="http://discord.com/users/733361448746614907" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
   </a>
-  <a href="karansingh25822@gmail.com" target="_blank">
+  <a href="mailto:karansingh25822@gmail.com">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
 </div>
 
 ###
+<!--
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/snake.svg" alt="Snake animation" />
+
+###
+
+<div align="center">
+  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4" alt="Layout with last medium posts"  />
+</div>
+
+###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
+</picture>
+ This line is commented out and will not be rendered asfa
+-->
