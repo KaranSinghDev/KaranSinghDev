@@ -12,7 +12,10 @@
 
 ### Hey there! 👋
 
-I'm a software engineering student driven by a fascination with what happens "under the hood" of the software we use every day. My passion lies in building high-performance, reliable systems that can handle serious scale. I enjoy diving deep into the fundamentals—from architecting low-latency databases and distributed caches to optimizing complex data pipelines.
+Hey there! 👋
+I’m a B.Tech CSE graduate with a curiosity for how software really works. I explore systems, understand their design, and find ways to make them a little better.
+
+My expereicne ( still emerging ) I have learned that good engineering comes from curiosity, clarity, and consistency — and I’m here to keep learning and building along the way.
 
 For me, it's about the challenge of making things efficient, resilient, and fundamentally well-engineered.
 
