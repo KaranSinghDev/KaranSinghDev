@@ -12,7 +12,6 @@
 
 ### Hey there! 👋
 
-Hey there! 👋
 I’m a B.Tech CSE graduate with a curiosity for how software really works. I explore systems, understand their design, and find ways to make them a little better.
 
 My expereicne ( still emerging ) I have learned that good engineering comes from curiosity, clarity, and consistency — and I’m here to keep learning and building along the way.
