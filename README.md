@@ -1,45 +1,42 @@
 <h1 align="center">Karan Singh</h1>
 <p align="center">
-  <strong>Software Engineer | Distributed Systems & High-Performance Computing</strong>
-</p>
-<p align="center">
-  <em>Final-year B.Tech Computer Science Student @ SRM University | Google Summer of Code @ CERN-HSF</em>
+  <em>B.Tech Computer Science @ SRM University | Google Summer of Code @ CERN-HSF</em>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/karansinghdev/" target="_blank">LinkedIn</a> •
-  <a href="mailto:karansingh25822@gmail.com">Email</a> •
-  <a href="https://www.kaggle.com/hyter7" target="_blank">Kaggle</a>
+  <a href="https://github.com/KaranSinghDev" target="_blank">GitHub</a> •
+  <a href="mailto:karansingh25822@gmail.com">Email</a>
 </p>
 
 ---
 
+### Hey there! 👋
+
+I'm a software engineering student driven by a fascination with what happens "under the hood" of the software we use every day. My passion lies in building high-performance, reliable systems that can handle serious scale. I enjoy diving deep into the fundamentals—from architecting low-latency databases and distributed caches to optimizing complex data pipelines.
+
+For me, it's about the challenge of making things efficient, resilient, and fundamentally well-engineered.
+
+## My Core Projects
+*Here are a few of the challenges I've enjoyed tackling.*
+
+#### 🚀 Time-Series Database Engine
+Fascinated by how data is stored and retrieved efficiently, I engineered a custom time-series database from scratch in C++. By implementing custom compression (Delta-of-Delta/XOR) and a cache-aware storage layout, I was able to cut storage requirements by 50% and deliver p99 read latencies of **under 1.3ms** on hot data.
+
+#### ⚡ Distributed Fault-Tolerant Cache
+To explore high-concurrency systems, I designed a distributed cache using Python, `asyncio`, and `gRPC`. The challenge was ensuring both speed and reliability. The final system was benchmarked to handle **17,000 ops/sec** and used consistent hashing and replication to guarantee **zero data loss** during simulated node failures.
+
+#### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
+During my time with Google Summer of Code at CERN, I tackled the unique problem of benchmarking quantum vs. classical computing algorithms. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
+
+## My Go-To Technologies
+-   **Core Languages:** C++, Python, SQL
+-   **Systems & Backend:** Docker, Kubernetes, gRPC, FastAPI, Redis, Kafka
+-   **Cloud & Infrastructure:** AWS, GCP, GitHub Actions
+-   **Data & Performance:** PyTorch, CUDA, Pandas, Scikit-learn
+
 <p align="center">
-  I am a software engineer focused on architecting robust, scalable, and high-performance systems. My passion lies in solving complex engineering problems at the intersection of backend development, distributed computing, and low-latency performance. I thrive on building solutions from the ground up, whether it's a database engine in C++ or a fault-tolerant caching system designed for high-concurrency workloads.
+  Always open to collaborating on challenging problems in systems engineering and performance optimization.
 </p>
-
-## 🚀 Key Engineering Highlights
-*I focus on projects that demand strong systems design and a deep understanding of performance trade-offs.*
-
-### **Distributed Systems & Backend Engineering**
--   **Built a C++ Time Series Database Engine:** Engineered a custom storage engine with Delta-of-Delta/XOR compression, achieving a **50% storage reduction**. Architected a cache-aware, time-sharded layout to deliver **p99 latencies of 1.3ms** for hot reads and **sub-16ms** for cold-disk reads over millions of points.
--   **Designed a Distributed, Fault-Tolerant Cache:** Used Python, `asyncio`, and `gRPC` to build a system benchmarked at **17,000 ops/sec**. Implemented consistent hashing and N-way replication to ensure **zero data loss** during simulated node failures while maintaining a p99 read latency under 6ms.
-
-### **AI Systems & Performance Benchmarking**
--   **Google Summer of Code @ CERN-HSF:** Architected a Python framework to benchmark classical (PyTorch) vs. quantum (PennyLane) algorithms, processing **25 million data points** from physics simulations. Delivered a cross-platform solution that reduced setup failures by an estimated **95%**.
--   **Engineered Scalable AI/ML Pipelines:** Built an information retrieval backend for an AI persona serving **5,000+ daily users**, implementing a custom index that cut **P99 query latency by 15%** across a 10 GB+ knowledge base.
-
-## 🛠️ Core Technologies & Stack
-
-| Category                  | Technologies                                                                   |
-| ------------------------- | ------------------------------------------------------------------------------ |
-| **Languages**             | `C++`, `Python`, `SQL`                                                         |
-| **Backend & Databases**   | `Docker`, `Kubernetes`, `gRPC`, `FastAPI`, `Kafka`, `Redis`, `PostgreSQL`       |
-| **Cloud & DevOps**        | `AWS (EC2, S3, SQS)`, `GCP`, `GitHub Actions`                                  |
-| **AI/ML (Systems Focus)** | `PyTorch`, `CUDA`, `LangChain`, `Transformers`, `Scikit-learn`, `Pandas`        |
-
-## 🏆 Research & Competitive Achievements
--   Co-authored research on big data processing and QAOA improvements, to be presented at **ACAT 2025**.
--   Led teams to **3rd place (out of 50+)** at SRM Builds 5.0 X Fintech Hackathon and **6th place (out of 400+)** at the Intel Advent of Multimodal AI Hackathon.
 
 ###
 
