@@ -16,8 +16,8 @@ I'm a software engineering student driven by a fascination with what happens "un
 
 For me, it's about the challenge of making things efficient, resilient, and fundamentally well-engineered.
 
-## My Core Projects
-*Here are a few of the challenges I've enjoyed tackling.*
+## My Core Projects ( Highlights of 2025 ) 
+*Here are a few of the challenges I've enjoyed tackling and the ideas from which they originated.*
 
 #### 🚀 Time-Series Database Engine
 Fascinated by how data is stored and retrieved efficiently, I engineered a custom time-series database from scratch in C++. By implementing custom compression (Delta-of-Delta/XOR) and a cache-aware storage layout, I was able to cut storage requirements by 50% and deliver p99 read latencies of **under 1.3ms** on hot data.
@@ -28,7 +28,7 @@ To explore high-concurrency systems, I designed a distributed cache using Python
 #### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
 During my time with Google Summer of Code at CERN, I tackled the unique problem of benchmarking quantum vs. classical computing algorithms. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
 
-## My Go-To Technologies
+## Some Technologies whcih I explored to implementing the ideas
 -   **Core Languages:** C++, Python, SQL
 -   **Systems & Backend:** Docker, Kubernetes, gRPC, FastAPI, Redis, Kafka
 -   **Cloud & Infrastructure:** AWS, GCP, GitHub Actions
