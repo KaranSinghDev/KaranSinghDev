@@ -30,7 +30,7 @@ To explore high-concurrency systems, I designed a distributed cache using Python
 #### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
 During my time with Google Summer of Code at CERN, I tackled the unique problem of benchmarking quantum vs. classical computing algorithms. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
 
-## Some Technologies whcih I explored to implementing the ideas
+## Some Technologies which I explored along the way
 -   **Core Languages:** C++, Python, SQL
 -   **Systems & Backend:** Docker, Kubernetes, gRPC, FastAPI, Redis, Kafka
 -   **Cloud & Infrastructure:** AWS, GCP, GitHub Actions
