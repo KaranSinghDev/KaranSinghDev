@@ -16,7 +16,7 @@ I’m a Computer Science Major with a curiosity for how software really works. I
 
 In my expereince ( still emerging ) I have learned that good engineering comes from curiosity, clarity and consistency — and I’m here to keep learning and building along the way.
 
-For me, it isn't about just making systems but with the idea of making things efficient, resilient, and fundamentally well-engineered.
+For me, it isn't about just making systems, but with the idea of making things efficient, resilient, and fundamentally well-engineered.
 
 ## My Highlights of 2025 
 *Here are a few of the challenges I've enjoyed tackling and the ideas from which they originated.*
