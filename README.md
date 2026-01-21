@@ -1,6 +1,6 @@
 <h1 align="center">Karan Singh</h1>
 <p align="center">
-  <em>Google Summer of Code 2025 @ CERN-HSF | B.Tech Computer Science @ SRM University</em>
+  <em>Research Affiliate @ IFIC Spain | Google Summer of Code 2025 @ CERN-HSF | B.Tech Computer Science 2025</em>
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/karansinghdev/" target="_blank">LinkedIn</a> •
