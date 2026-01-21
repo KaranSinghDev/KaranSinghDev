@@ -4,7 +4,6 @@
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/karansinghdev/" target="_blank">LinkedIn</a> •
-  <a href="https://github.com/KaranSinghDev" target="_blank">GitHub</a> •
   <a href="mailto:karansingh25822@gmail.com">Email</a>
 </p>
 
