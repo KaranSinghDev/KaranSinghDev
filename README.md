@@ -21,19 +21,19 @@ For me, it isn't about just making systems, but with the idea of making things e
 *Here are a few of the challenges I've enjoyed tackling and the ideas from which they originated.*
 
 #### 🚀 Time-Series Database Engine
-Admired by how data is stored and retrieved efficiently in systems such as Influx, Prometheus, I engineered a custom time-series database from scratch in C++. By implementing custom compression (Delta-of-Delta/XOR) and a cache-aware storage layout, I was able to cut storage requirements by roughly 50% and deliver p99 read latencies of **under 1.3ms** on hot data (cpmmodity hardware).
+Admired by how data is stored and retrieved efficiently in systems such as Influx, Prometheus, I engineered a custom time-series database from scratch in C++. By implementing custom compression (Delta-of-Delta/XOR) and a cache-aware storage layout, I was able to cut storage requirements by roughly 50% and deliver p99 read latencies of **under 1.3ms** on hot data (commodity hardware).
 
 #### ⚡ Distributed Fault-Tolerant Cache
-To explore high-concurrency systems, I designed a distributed cache using Python, `asyncio`, and `gRPC`, the plan was ensuring both speed and reliability. The final system was benchmarked to handle **17,000 ops/sec** on commodity hardware  and used consistent hashing and replication to guarantee **zero data loss** during simulated node failures.
+To explore high-concurrency systems, I designed a distributed cache using Python, `asyncio`, and `gRPC`, the plan was ensuring both speed and  availability. The final system was benchmarked to handle **17,000 ops/sec** on commodity hardware  and used consistent hashing and replication to guarantee **zero data loss** during simulated node failures.
 
 #### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
-During my time with Google Summer of Code at CERN, I was tasked on the grounds of benchmarking quantum vs. classical computing algorithms. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
+During my time with Google Summer of Code at CERN, I  worked on the grounds of benchmarking quantum vs. classical computing algorithms for particle trajectory reconstruction. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
 
 ## Some Technologies which I explored along the way
--   **Core Languages:** C++, Python, SQL
--   **Systems & Backend:** Docker, Kubernetes, gRPC, FastAPI, Redis, Kafka
+-   **Core Languages:** C++, Python, Java,  SQL
+-   **Systems & Backend:** Docker, Kubernetes, gRPC, FastAPI, Redis, Kafka, Spark
 -   **Cloud & Infrastructure:** AWS, GCP, GitHub Actions
--   **Data & Performance:** PyTorch, CUDA, Pandas, Scikit-learn
+-   **Data & Performance:** PyTorch, CUDA, Pandas, Scikit-learn, Numpy
 
 <p align="center">
   Always open to collaborating on challenging problems in systems engineering and performance optimization.
