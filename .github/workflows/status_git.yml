@@ -2,8 +2,8 @@ name: Generate Stats Card
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every 24 hours
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 0 * * *" # Runs daily
+  workflow_dispatch: # Allows manual run
 
 jobs:
   build:
@@ -15,19 +15,16 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Output filename
           filename: stats.svg
 
           # --- CONFIGURATION ---
-          # "base: header" enables the top stats bar (Commits, PRs, Contribs)
-          base: header
           
-          # "base_indepth: yes" ensures the counts are accurate across all repos
+          # This is the fix: We enable 'header', 'activity', 'community', and 'repositories'
+          # This generates the list of stats (Stars, Commits, PRs) you are looking for.
+          base: header, activity, community, repositories
+          
+          # "base_indepth: yes" is CRITICAL. Without this, it won't count all your commits.
           base_indepth: yes
           
-          # Set your timezone for accurate daily counts
+          # Set timezone for accurate counts
           config_timezone: Asia/Calcutta
-          
-          # Hide the "repositories" and "metadata" sections to keep it minimal
-          config_order: base.header
