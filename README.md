@@ -42,8 +42,7 @@ During my time with Google Summer of Code at CERN, I  worked on the grounds of b
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KaranSinghDev&show_icons=true&include_all_commits=true&count_private=true&theme=transparent" height="150" alt="stats graph"  />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=KaranSinghDev&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&hide_border=true" height="150" alt="Karan's GitHub Stats"  />
 </div>
 
 ###
