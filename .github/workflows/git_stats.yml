@@ -35,3 +35,6 @@ jobs:
           # Customizing the output to be minimalist and professional
           config_timezone: Asia/Calcutta
           config_order: isocalendar, people, summary
+          
+          # <<<--- ADD THIS LINE ---<<<
+          filename: github-stats.svg
