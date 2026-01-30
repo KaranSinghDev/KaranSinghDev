@@ -1,22 +1,37 @@
-name: GitHub-Profile-Summary-Cards
+# This is a GitHub Action to generate a minimalist stats card for your profile.
+# It runs automatically every 24 hours or can be triggered manually.
+
+name: Generate Minimalist GitHub Stats SVG
 
 on:
-  schedule: # Execute every 24 hours
-    - cron: "0 0 * * *"
-  workflow_dispatch: # Allow manual triggering
+  schedule:
+    - cron: "0 0 * * *" # Runs at midnight UTC
+  workflow_dispatch: # Allows manual run
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-summary-cards
     permissions:
       contents: write
-    
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: lowlighter/metrics@latest
         with:
-          USERNAME: ${{ github.repository_owner }}
+          # Your GitHub token is automatically used by the action
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # This is the important part: we are disabling all default plugins
+          base: "" 
+          
+          # And enabling only the plugins we want, with a minimalist layout
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Show the full contribution calendar
+
+          plugin_people: yes
+          plugin_people_types: followers, following # Optional: shows who you follow/who follows you
+
+          plugin_summary: yes # This plugin shows the stats you requested
+
+          # Customizing the output to be minimalist and professional
+          config_timezone: Asia/Calcutta
+          config_order: isocalendar, people, summary
