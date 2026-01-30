@@ -27,7 +27,7 @@ Admired by how data is stored and retrieved efficiently in systems such as Influ
 To explore high-concurrency systems, I designed a distributed cache using Python, `asyncio`, and `gRPC`, the plan was ensuring both speed and  availability. The final system was benchmarked to handle **17,000 ops/sec** on commodity hardware  and used consistent hashing and replication to guarantee **zero data loss** during simulated node failures.
 
 #### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
-During my time with Google Summer of Code at CERN, I  worked on the grounds of benchmarking quantum vs. classical computing algorithms for particle trajectory reconstruction. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **25 million data points** from physics simulations to generate final analysis reports.
+During my time with Google Summer of Code at CERN, I  worked on the grounds of benchmarking quantum vs. classical computing algorithms for particle trajectory reconstruction. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **millions data points** from physics simulations to generate final analysis reports.
 
 ## Some Technologies which I explored along the way
 -   **Core Languages:** C++, Python, Java,  SQL
