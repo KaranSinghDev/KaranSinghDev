@@ -42,7 +42,13 @@ During my time with Google Summer of Code at CERN, I  worked on the grounds of b
 ###
 
 <div align="center">
+  <!-- Main Stats Card -->
   <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/profile-summary-card-output/default/0-profile-details.svg" alt="GitHub Stats" />
+  
+  <br/>
+  
+  <!-- Languages Card (Optional - if you want to show languages too) -->
+  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/profile-summary-card-output/default/2-most-commit-language.svg" alt="Top Languages" />
 </div>
 
 ###
