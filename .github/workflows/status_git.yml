@@ -1,5 +1,4 @@
-# Minimalist Stats Workflow
-name: Generate Minimal Text Stats
+name: Generate Stats Card
 
 on:
   schedule:
@@ -17,19 +16,18 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           
-          # Disable all default visuals
-          base: ""
-          
-          # Enable the lines plugin for text output
-          plugin_lines: yes
-          plugin_lines_sections: repositories
-          
-          # Define the specific stats you want
-          # Note: {user.contributions} is the total contributions count for the current calendar year
-          plugin_lines_repositories_template: |
-            - >
-              **Total Contributions (2025):** {user.contributions} &nbsp;·&nbsp;
-              **Total PRs:** {user.pulls} &nbsp;·&nbsp;
-              **Total Commits (2025):** {user.commits}
-          
+          # Output filename
           filename: stats.svg
+
+          # --- CONFIGURATION ---
+          # "base: header" enables the top stats bar (Commits, PRs, Contribs)
+          base: header
+          
+          # "base_indepth: yes" ensures the counts are accurate across all repos
+          base_indepth: yes
+          
+          # Set your timezone for accurate daily counts
+          config_timezone: Asia/Calcutta
+          
+          # Hide the "repositories" and "metadata" sections to keep it minimal
+          config_order: base.header
