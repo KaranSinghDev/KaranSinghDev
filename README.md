@@ -42,26 +42,6 @@ During my time with Google Summer of Code at CERN, I  worked on the grounds of b
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/metrics.svg" alt="My GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/github-stats.svg" alt="My GitHub Stats" />
 </div>
 
-###
-<!--
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4" alt="Layout with last medium posts"  />
-</div>
-
-###
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/output/github-snake.svg" />
-</picture>
- This line is commented out and will not be rendered asfa
--->
