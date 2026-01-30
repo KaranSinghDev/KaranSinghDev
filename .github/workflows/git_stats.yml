@@ -1,11 +1,11 @@
-# This is a GitHub Action to generate a minimalist stats card for your profile.
-# It runs automatically every 24 hours or can be triggered manually.
+# This GitHub Action generates a single line of text with your key stats.
+# It is designed to be minimalist and professional.
 
-name: Generate Minimalist GitHub Stats SVG
+name: Generate Minimalist Text Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs at midnight UTC
+    - cron: "0 0 * * *" # Runs daily
   workflow_dispatch: # Allows manual run
 
 jobs:
@@ -17,24 +17,23 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token is automatically used by the action
+          # Your GitHub token is required for the action to read your stats
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # This is the important part: we are disabling all default plugins
-          base: "" 
-          
-          # And enabling only the plugins we want, with a minimalist layout
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year # Show the full contribution calendar
 
-          plugin_people: yes
-          plugin_people_types: followers, following # Optional: shows who you follow/who follows you
+          # --- CONFIGURATION ---
+          # Use a transparent background with no header for a clean look
+          base: ""
 
-          plugin_summary: yes # This plugin shows the stats you requested
-
-          # Customizing the output to be minimalist and professional
-          config_timezone: Asia/Calcutta
-          config_order: isocalendar, people, summary
+          # We are using the "lines" plugin to create custom text output
+          plugin_lines: yes
+          plugin_lines_sections: repositories
           
-          # <<<--- ADD THIS LINE ---<<<
-          filename: github-stats.svg
+          # This template defines exactly what text will be displayed
+          plugin_lines_repositories_template: |
+            - >
+              **Total Commits:** {user.commits} &nbsp;·&nbsp;
+              **Total PRs:** {user.pulls} &nbsp;·&nbsp;
+              **Contributions (Last Year):** {user.contributions}
+
+          # Define the output filename
+          filename: github-stats-minimal.svg
