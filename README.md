@@ -42,6 +42,5 @@ During my time with Google Summer of Code at CERN, I  worked on the grounds of b
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/github-stats.svg" alt="My GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/github-stats-minimal.svg" alt="My GitHub Stats" />
 </div>
-
