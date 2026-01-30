@@ -39,7 +39,3 @@ During my time with Google Summer of Code at CERN, I  worked on the grounds of b
   Always open to collaborating on challenging problems in systems engineering and performance optimization.
 </p>
 
-###
-<div align="center">
-  <img src="https://raw.githubusercontent.com/KaranSinghDev/KaranSinghDev/main/stats.svg" alt="Stats" />
-</div>
