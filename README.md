@@ -17,7 +17,7 @@ In my expereince ( still emerging ) I have learned that good engineering comes f
 
 For me, it isn't about just making systems, but with the idea of making things efficient, resilient, and fundamentally well-engineered.
 
-## My Highlights of 2025 
+## Some of my highlights of 2025 
 *Here are a few of the challenges I've enjoyed tackling and the ideas from which they originated.*
 
 #### 🚀 Time-Series Database Engine
