@@ -23,10 +23,3 @@ A standalone C++17 library and gRPC Flight server bridging CERN's next-generatio
 **3.[AXON-HLT: Coprocessor Inference Benchmarking](https://github.com/KaranSinghDev/AXON-HLT)** `[DOI: 10.5281/zenodo.20058280]`  
 An asynchronous gRPC client simulating High-Level Trigger (HLT) ML pipelines. Validates the performance of "Coprocessors-as-a-Service" architectures by benchmarking dynamic batching on NVIDIA Triton servers, adhering to strict <7ms latency budgets for particle classification.
 * *Tech: Python (asyncio), NVIDIA Triton Inference Server, PyTorch/ONNX, gRPC.*
-
----
-
-### 🛠️ Core Technologies
-* **Systems & Languages:** C++ (11/17), Go, Python, JavaScript/TypeScript
-* **Cloud & Infrastructure:** Kubernetes, Docker, gRPC, Apache Arrow Flight, S3/MinIO
-* **Data Ecosystem:** Apache Arrow, ROOT, PostgreSQL, OpenSearch, NVIDIA Triton
