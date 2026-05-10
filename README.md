@@ -2,7 +2,7 @@
 
 **Software Engineer | Distributed Systems & Scientific Computing**
 
-I am a Computer Science graduate (BTech, May 2025) specializing in high-performance computing, distributed infrastructure, and scientific data engineering. I build systems that handle massive data throughput, guarantee fault tolerance, and optimize compute-to-data locality. 
+I am a Computer Science graduate working in high-performance computing, distributed infrastructure, and scientific data engineering. Building systems and solutions to be efficient, resilient, and fundamentally well-engineered. 
 
 📫 **Contact:**[karansingh25822@gmail.com](mailto:karansingh25822@gmail.com) | [LinkedIn](#)  
 🎓 **ORCID:**[0009-0000-0920-2379](https://orcid.org/0009-0000-0920-2379)  
