@@ -1,41 +1,32 @@
-<h1 align="center">Karan Singh</h1>
-<p align="center">
-  <em>Research Affiliate @ IFIC Spain | Google Summer of Code 2025 @ CERN-HSF | B.Tech Computer Science 2025</em>
-</p>
-<p align="center">
-  <a href="https://www.linkedin.com/in/karansinghdev/" target="_blank">LinkedIn</a> •
-  <a href="mailto:karansingh25822@gmail.com">Email</a>
-</p>
+# Karan Singh
+
+**Software Engineer | Distributed Systems & Scientific Computing**
+
+I am a Computer Science graduate (BTech, May 2025) specializing in high-performance computing, distributed infrastructure, and scientific data engineering. I build systems that handle massive data throughput, guarantee fault tolerance, and optimize compute-to-data locality. 
+
+📫 **Contact:**[karansingh25822@gmail.com](mailto:karansingh25822@gmail.com) | [LinkedIn](#)  
+🎓 **ORCID:**[0009-0000-0920-2379](https://orcid.org/0009-0000-0920-2379)  
+📚 **Zenodo:** Karan_Singh  
 
 ---
 
-### Hey there! 👋
+### 🚀 Highlights of 2026
 
-I’m a Computer Science Major with an interest in dynamics on the real world. I explore systems, understand their design, and find ways to make them a little better.
+**1.[Graviton: Data-Local Kubernetes Scheduler](https://github.com/KaranSinghDev/data-gravity-operator)**  
+A Kubernetes Operator built to eliminate Wide Area Network (WAN) data transfers in scientific data lakes (like the WLCG). It queries storage topologies (e.g., Rucio) and injects dynamic `NodeAffinity` into batch jobs to ensure compute is co-located with its dataset replicas. 
+* *Tech: Go, Kubernetes Operator SDK, Rucio, Prometheus.*
 
-In my expereince ( still emerging ) I have learned that good engineering comes from curiosity, clarity and consistency — and I’m here to keep learning and building along the way.
+**2. [RNArrow Gateway: ROOT-to-Arrow Flight Server](https://github.com/KaranSinghDev/RNTuple-Arrow-Gateway)** `[DOI: 10.5281/zenodo.20034922]`  
+A standalone C++17 library and gRPC Flight server bridging CERN's next-generation `RNTuple` binary format with the Apache Arrow ecosystem. Achieves <1.6x overhead over raw C++ reads, exposing Petabyte-scale physics data natively to modern distributed analytic tools.
+* *Tech: C++17, Apache Arrow, gRPC, pybind11, ROOT.*
 
-For me, it isn't about just making systems, but with the idea of making things efficient, resilient, and fundamentally well-engineered.
+**3.[AXON-HLT: Coprocessor Inference Benchmarking](https://github.com/KaranSinghDev/AXON-HLT)** `[DOI: 10.5281/zenodo.20058280]`  
+An asynchronous gRPC client simulating High-Level Trigger (HLT) ML pipelines. Validates the performance of "Coprocessors-as-a-Service" architectures by benchmarking dynamic batching on NVIDIA Triton servers, adhering to strict <7ms latency budgets for particle classification.
+* *Tech: Python (asyncio), NVIDIA Triton Inference Server, PyTorch/ONNX, gRPC.*
 
-## Some of my highlights of 2025 
-*Here are a few of the challenges I've enjoyed tackling and the ideas from which they originated.*
+---
 
-#### 🚀 Time-Series Database Engine
-Admired by how data is stored and retrieved efficiently in systems such as Influx, Prometheus, I engineered a custom time-series database from scratch in C++. By implementing custom compression (Delta-of-Delta/XOR) and a cache-aware storage layout, I was able to cut storage requirements by roughly 50% and deliver p99 read latencies of **under 1.3ms** on hot data (commodity hardware).
-
-#### ⚡ Distributed Fault-Tolerant Cache
-To explore high-concurrency systems, I designed a distributed cache using Python, `asyncio`, and `gRPC`, the plan was ensuring both speed and  availability. The final system was benchmarked to handle **17,000 ops/sec** on commodity hardware  and used consistent hashing and replication to guarantee **zero data loss** during simulated node failures.
-
-#### ⚛️ Quantum vs. Classical Benchmarking (GSoC @ CERN-HSF)
-During my time with Google Summer of Code at CERN, I  worked on the grounds of benchmarking quantum vs. classical computing algorithms for particle trajectory reconstruction. I architected a cross-platform Python framework to automate a complex 4-stage workflow, processing over **millions data points** from physics simulations to generate final analysis reports.
-
-## Technical Skills
--   **Languages:** C++ (STL), Python, Java, TypeScript, SQL
--   **Full Stack & Backend:** Spring Boot, FastAPI, React.js, Node.js, gRPC, PostgreSQL
--   **Infrastructure & DevOps:** Docker, Kubernetes, Linux (Bash), GitLab CI, Redis, Kafka
--   **Scientific & Data:** NumPy, Pandas, PyTorch, CUDA, ROOT (Basics), Geant4
-
-<p align="center">
-  Always open to collaborating on challenging problems in systems engineering and performance optimization.
-</p>
-
+### 🛠️ Core Technologies
+* **Systems & Languages:** C++ (11/17), Go, Python, JavaScript/TypeScript
+* **Cloud & Infrastructure:** Kubernetes, Docker, gRPC, Apache Arrow Flight, S3/MinIO
+* **Data Ecosystem:** Apache Arrow, ROOT, PostgreSQL, OpenSearch, NVIDIA Triton
