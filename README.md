@@ -12,7 +12,7 @@ I am a Computer Science graduate working in high-performance computing, distribu
 
 ### 🚀 Highlights of 2026
 
-**1.[Graviton: Data-Local Kubernetes Scheduler](https://github.com/KaranSinghDev/data-gravity-operator)**  
+**1.[Graviton: Data-Local Kubernetes Scheduler](https://github.com/KaranSinghDev/Graviton-Data-Local-Scheduler)**  
 A Kubernetes Operator built to eliminate Wide Area Network (WAN) data transfers in scientific data lakes (like the WLCG). It queries storage topologies (e.g., Rucio) and injects dynamic `NodeAffinity` into batch jobs to ensure compute is co-located with its dataset replicas. 
 * *Tech: Go, Kubernetes Operator SDK, Rucio, Prometheus.*
 
