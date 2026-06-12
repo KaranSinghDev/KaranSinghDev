@@ -12,7 +12,7 @@ I am a Computer Science graduate working in high-performance computing, distribu
 
 ### 🚀 Highlights of 2026
 
-**1.[StaleBench: Answer-Freshness Benchmark for RAG](https://github.com/KaranSinghDev/StaleBench)**
+**1.[StaleBench: Answer-Freshness Benchmark for RAG](https://github.com/KaranSinghDev/StaleBench)** `[DOI: 10.5281/zenodo.20649015]` 
 A benchmark and open-source tool that measures *answer* freshness in Retrieval-Augmented Generation, not just index freshness. It models a clock and three refresh policies (never / batch / immediate) to compute catch-up latency and stale-answer rate with Wilson confidence intervals, scoring by exact match so no LLM judge is needed.
 
 *Tech: Python, scikit-learn, sentence-transformers, NumPy, OpenAI-compatible LLM APIs.*
