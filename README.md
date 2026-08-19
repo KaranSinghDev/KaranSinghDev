@@ -4,7 +4,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-KaranSinghDev-181717?logo=github)](https://github.com/KaranSinghDev)
 [![Email](https://img.shields.io/badge/Email-karansingh25822@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:karansingh25822@gmail.com)
 
-I engineer software at the intersection of **Machine Learning** and **High-Performance Systems**, with a background in building scientific computing tools for CERN-HSF (GSoC '25). My focus is on low-latency infrastructure, distributed systems, and empirical AI evaluation.
+I am a CS engineer working in **Machine Learning** and **High-Performance Systems**, with a background in building scientific computing tools for CERN-HSF (GSoC '25). My focus is on low-latency infrastructure, distributed systems, and empirical AI evaluation.
 
 ---
 
