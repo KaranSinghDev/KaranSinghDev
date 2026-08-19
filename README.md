@@ -43,7 +43,7 @@ I engineer software at the intersection of **Machine Learning** and **High-Perfo
 
 ### 🛠️ Technical Skills
 
-* **Core Languages:** C++, Go, Python, WebAssembly
-* **Machine Learning & Evals:** PyTorch, NVIDIA Triton, Mechanistic Interpretability, Benchmarking
+* **Core Languages:** C++, Python, Go, Bash
+* **Machine Learning & Evals:** PyTorch, NVIDIA Triton/CUDA, Mechanistic Interpretability, Benchmarking
 * **Systems & Cloud:** Kubernetes, Apache Kafka, Apache Spark, gRPC, Docker, PostgreSQL
 * **Reliability & Rigor:** Valgrind (Memory Profiling), GoogleTest, CMake, CI/CD, Chaos Engineering
