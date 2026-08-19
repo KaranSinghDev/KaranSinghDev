@@ -1,66 +1,49 @@
-# Karan Singh 
-**Research Software Engineer | Independent Researcher**
+# Karan Singh
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--0920--2379-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0000-0920-2379)
 [![GitHub](https://img.shields.io/badge/GitHub-KaranSinghDev-181717?logo=github)](https://github.com/KaranSinghDev)
 [![Email](https://img.shields.io/badge/Email-karansingh25822@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:karansingh25822@gmail.com)
 
-I build high-performance infrastructure, distributed systems, and mechanistic interpretability probes for scientific computing and AI safety. My work sits at the intersection of **low-level systems engineering (C++/Go)** and **empirical research (AI/ML)**.
-
-Previously, I was a **Google Summer of Code (2025) Developer for CERN-HSF**, where I engineered benchmarking frameworks for High-Energy Physics (HEP). 
-
-🎯 **Currently Seeking:** 
-1. **Funded Master's / Research Assistantship opportunities** (Europe/Canada) in Systems or AI/ML labs.
-2. **Paid Research Software Engineer (RSE) or ML Infrastructure roles** globally.
+I engineer software at the intersection of **Machine Learning** and **High-Performance Systems**, with a background in building scientific computing tools for CERN-HSF (GSoC '25). My focus is on low-latency infrastructure, distributed systems, and empirical AI evaluation.
 
 ---
 
-## 🔬 AI Safety & Mechanistic Interpretability
-*Empirical evaluations and white-box probing of frontier language models.*
+### 🧠 Machine Learning & AI Evaluation
 
-| Project | Description | Artifacts |
+| Project | Problem $\rightarrow$ Solution | Core Tech |
 | :--- | :--- | :--- |
-| **[Valence-Lens](https://github.com/KaranSinghDev/Valence-Lens)** | **Independent open-weights valence probe.** Extracts scale-invariant internal valence directions from LLM residual streams. Proves internal signals predict welfare-relevant behavior where self-report fails. | `PyTorch` `Interpretability` |
-| **[Loyalty-Lens](https://github.com/KaranSinghDev/Loyalty-Lens)** | **White-box detection of hidden objectives.** Linear activation probes to detect covert, weight-installed political/corporate loyalties in LLMs that evade black-box auditing. | `PyTorch` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759567.svg)](https://doi.org/10.5281/zenodo.21759567) |
-| **[StaleBench](https://github.com/KaranSinghDev/StaleBench)** | **RAG Safety Benchmark.** Deterministic evaluation measuring answer freshness, catch-up latency, and silent staleness failures across RAG pipelines. | `Python` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20710012.svg)](https://doi.org/10.5281/zenodo.20710012) |
-| **[DisElect-Africa](https://github.com/KaranSinghDev/DisElect-Africa)** | **Global South Red-Teaming.** Empirical study auditing LLM generation of election disinformation across African and Western contexts. | `Red-Teaming` `Evaluations` |
+| **[Valence-Lens](https://github.com/KaranSinghDev/Valence-Lens)** | Asking models how they feel is unreliable $\rightarrow$ Uses residual-stream activation probes to read internal states directly. | `PyTorch` `Interpretability` |
+| **[Loyalty-Lens](https://github.com/KaranSinghDev/Loyalty-Lens)** | Models can hide covert allegiances that black-box chats miss $\rightarrow$ Uses white-box probes to detect weight-installed loyalties. | `PyTorch` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759567.svg)](https://doi.org/10.5281/zenodo.21759567) |
+| **[StaleBench](https://github.com/KaranSinghDev/StaleBench)** | RAG pipelines silently return outdated answers when facts change $\rightarrow$ A deterministic benchmark measuring answer freshness. | `Python` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20710012.svg)](https://doi.org/10.5281/zenodo.20710012) |
+| **[DisElect-Africa](https://github.com/KaranSinghDev/DisElect-Africa)** | Safety filters are rarely tested on non-Western contexts $\rightarrow$ Audits election disinformation and safety-prompting trade-offs. | `Red-Teaming` `Evals` |
 
 ---
 
-## ⚙️ Scientific Computing & HPC (CERN / Physics)
-*Zero-copy pipelines, hardware-accelerated compute, and physics infrastructure.*
+### ⚡ Systems & High-Performance Computing
 
-| Project | Description | Artifacts |
+| Project | Problem $\rightarrow$ Solution | Core Tech |
 | :--- | :--- | :--- |
-| **[E-QUEST](https://github.com/KaranSinghDev/E-QUEST)** | **CERN-HSF (GSoC '25).** Hardware-independent benchmarking framework comparing energy draw, memory footprint, and theoretical complexity of PyTorch vs. PennyLane Quantum ML models. | `Quantum ML` `Benchmarking` |
-| **[RNTuple-Arrow-Gateway](https://github.com/KaranSinghDev/RNTuple-Arrow-Gateway)** | **Zero-Copy Serialization.** Native C++ gateway bridging CERN ROOT’s RNTuple columnar format with the Apache Arrow ecosystem for high-speed ML ingestion. | `C++17` `Apache Arrow` `ROOT` |
-| **[AXON-HLT](https://github.com/KaranSinghDev/AXON-HLT)** | **Sub-7ms Inference.** Adapting CERN’s SONIC architecture on NVIDIA Triton to evaluate GPU offloading and dynamic batching under strict real-time latency budgets. | `NVIDIA Triton` `C++` |
-| **[WebROOT_X](https://github.com/KaranSinghDev/WebROOT_X)** | **Client-Side Physics Compute.** Compiling C++17 high-energy physics analysis kernels to WebAssembly (WASM) for zero-server, distributed computing in the browser. | `C++17` `WebAssembly` `CMake` |
+| **[RNTuple-Arrow-Gateway](https://github.com/KaranSinghDev/RNTuple-Arrow-Gateway)** | Converting physics data between formats wastes memory $\rightarrow$ A C++ gateway enabling zero-copy data flow to Apache Arrow. | `C++17` `Apache Arrow` `ROOT` |
+| **[AXON-HLT](https://github.com/KaranSinghDev/AXON-HLT)** | Real-time AI decisions choke single machines $\rightarrow$ Offloads compute to NVIDIA Triton via dynamic batching under a 7ms budget. | `C++` `NVIDIA Triton` |
+| **[E-QUEST](https://github.com/KaranSinghDev/E-QUEST)** | Accuracy metrics ignore energy costs $\rightarrow$ A framework measuring physical power and memory for classical vs. quantum ML. | `Quantum ML` `PyTorch` |
+| **[WebROOT_X](https://github.com/KaranSinghDev/WebROOT_X)** | Server-side physics analysis doesn't scale sustainably $\rightarrow$ Runs C++ physics kernels directly in the browser via WebAssembly. | `C++17` `WebAssembly` |
 
 ---
 
-## 🌩️ Distributed Systems & Cloud-Native Data Engineering
-*Fault-tolerant operators, time-series engines, and FAIR-compliant data lakes.*
+### 🌐 Distributed Systems & Data Infrastructure
 
-| Project | Description | Artifacts |
+| Project | Problem $\rightarrow$ Solution | Core Tech |
 | :--- | :--- | :--- |
-| **[Graviton Scheduler](https://github.com/KaranSinghDev/Graviton-Data-Local-Scheduler)** | **Data-Gravity K8s Operator.** Custom Kubernetes Operator (Go) eliminating cross-WAN data transfers in WLCG data lakes by scheduling compute exactly where Rucio storage replicas live. | `Go` `Kubernetes` `KubeBuilder` |
-| **[Insight-TSDB](https://github.com/KaranSinghDev/Telemetry-Data-Ecosystem)** | **Hybrid Time-Series Platform.** From-scratch C++17 storage engine (Delta-of-Delta/XOR compression) bridged to a real-time Apache Spark anomaly detection pipeline. | `C++17` `Spark` `Kafka` `Valgrind` |
-| **[Distributed-Ops-Hub](https://github.com/KaranSinghDev/Distributed-Operations-Hub)** | **Leaderless KV Store.** Python peer-to-peer cache demonstrating consistent hashing, N-way gRPC replication, and automated CI chaos engineering. | `Python Async` `gRPC` `Chaos-Testing` |
-| **[Arkhe Archive](https://github.com/KaranSinghDev/Arkhe-Open-Data-Archive)** | **Self-Hostable Research Archive.** Lightweight, FAIR-compliant scientific data repository handling massive file streams via FastAPI, Postgres, and MinIO. | `FastAPI` `PostgreSQL` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098033.svg)](https://doi.org/10.5281/zenodo.20098033) |
+| **[Graviton Scheduler](https://github.com/KaranSinghDev/Graviton-Data-Local-Scheduler)** | Standard Kubernetes schedules compute blindly across networks $\rightarrow$ A Go Operator that places jobs where the data physically lives. | `Go` `Kubernetes` |
+| **[Insight-TSDB](https://github.com/KaranSinghDev/Telemetry-Data-Ecosystem)** | Telemetry requires fast storage and live health checks $\rightarrow$ A custom C++17 TSDB paired with a real-time Spark anomaly pipeline. | `C++17` `Kafka` `Spark` |
+| **[Distributed-Ops-Hub](https://github.com/KaranSinghDev/Distributed-Operations-Hub)** | Databases crash when nodes fail $\rightarrow$ A leaderless key-value store with consistent hashing and automated chaos-test resilience. | `Python` `gRPC` `Chaos Testing` |
+| **[Arkhe Archive](https://github.com/KaranSinghDev/Arkhe-Open-Data-Archive)** | Research archives are too heavy to run locally $\rightarrow$ A lightweight, single-command data archive adhering to the FAIR standard. | `FastAPI` `PostgreSQL` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098033.svg)](https://doi.org/10.5281/zenodo.20098033) |
 
 ---
 
-## 🛠️ Technical Arsenal
+### 🛠️ Technical Skills
 
-*   **Low-Level & Systems:** C++, C++17, C, WebAssembly (Emscripten), Linux Internals.
-*   **Languages:** Python 3 (Asyncio, ctypes), Go (Golang).
-*   **AI/ML & Interpretability:** PyTorch, HuggingFace, PennyLane (QML), LangChain.
-*   **Cloud-Native & Distributed:** Kubernetes, Docker, gRPC, Apache Kafka, Apache Spark, PostgreSQL, MinIO (S3).
-*   **Scientific Tooling:** CERN ROOT, Uproot, Apache Arrow, NVIDIA Triton.
-*   **Rigor & CI/CD:** CMake, Valgrind, GoogleTest, GitHub Actions, Chaos Engineering.
-
-> *"I believe in reproducible science, zero-copy data boundaries, and strict memory safety. If it isn't rigorously tested, gracefully degraded, and honestly bounded, it isn't finished."*
-
----
-📫 **Get in touch:** [karansingh25822@gmail.com](mailto:karansingh25822@gmail.com) | I am highly responsive to discussions around research collaborations, RSE positions, or Master's funding.
+* **Core Languages:** C++, Go, Python, WebAssembly
+* **Machine Learning & Evals:** PyTorch, NVIDIA Triton, Mechanistic Interpretability, Benchmarking
+* **Systems & Cloud:** Kubernetes, Apache Kafka, Apache Spark, gRPC, Docker, PostgreSQL
+* **Reliability & Rigor:** Valgrind (Memory Profiling), GoogleTest, CMake, CI/CD, Chaos Engineering
