@@ -19,7 +19,7 @@ I am a CS engineer working in **Machine Learning** and **High-Performance System
 
 ---
 
-### ⚡ Systems & High-Performance Computing
+### ⚡Scientific & High-Performance Computing
 
 | Project | Problem $\rightarrow$ Solution | Core Tech |
 | :--- | :--- | :--- |
