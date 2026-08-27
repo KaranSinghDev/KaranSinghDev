@@ -1,7 +1,6 @@
 # Karan Singh
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--0920--2379-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0000-0920-2379)
-[![GitHub](https://img.shields.io/badge/GitHub-KaranSinghDev-181717?logo=github)](https://github.com/KaranSinghDev)
 [![Email](https://img.shields.io/badge/Email-karansingh25822@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:karansingh25822@gmail.com)
 
 I am a CS engineer working in **Machine Learning** and **High-Performance Systems**, with a background in in research software and working on tools for communities including HEP Software Foudnation, Scikit-HEP. Experimenting/Exploring domains such as low-latency infrastructure, distributed systems, and empirical AI evaluation.
