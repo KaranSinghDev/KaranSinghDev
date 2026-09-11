@@ -22,9 +22,9 @@ I am a CS engineer working in **Machine Learning** and **High-Performance System
 
 | Project | Problem $\rightarrow$ Solution | Core Tech |
 | :--- | :--- | :--- |
-| **[Valence-Lens](https://github.com/KaranSinghDev/Valence-Lens)** | Asking models how they feel is unreliable $\rightarrow$ Uses residual-stream activation probes to read internal states directly. | `PyTorch` `Interpretability` |
-| **[Loyalty-Lens](https://github.com/KaranSinghDev/Loyalty-Lens)** | Models can hide covert allegiances that black-box chats miss $\rightarrow$ Uses white-box probes to detect weight-installed loyalties. | `PyTorch` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759567.svg)](https://doi.org/10.5281/zenodo.21759567) |
 | **[StaleBench](https://github.com/KaranSinghDev/StaleBench)** | RAG pipelines silently return outdated answers when facts change $\rightarrow$ A deterministic benchmark measuring answer freshness. | `Python` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20710012.svg)](https://doi.org/10.5281/zenodo.20710012) |
+| **[Valence-Lens](https://github.com/KaranSinghDev/Valence-Lens)** | Asking models how they feel is unreliable $\rightarrow$ Uses residual-stream activation probes to read internal states directly. | `PyTorch` `Interpretability` |
+| **[Loyalty-Lens](https://github.com/KaranSinghDev/Loyalty-Lens)** | Models can hide covert allegiances that black-box chats miss $\rightarrow$ Uses white-box probes to detect weight-installed loyalties. | `PyTorch` [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21759567.svg)](https://doi.org/10.5281/zenodo.21759567) | 
 | **[DisElect-Africa](https://github.com/KaranSinghDev/DisElect-Africa)** | Safety filters are rarely tested on non-Western contexts $\rightarrow$ Audits election disinformation and safety-prompting trade-offs. | `Red-Teaming` `Evals` |
 
 ---
